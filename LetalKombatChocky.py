@@ -114,7 +114,7 @@ class Player:
 
 if __name__ == '__main__':
 
-    # All usage players add/modify manually
+    # 1 All usage players add/modify manually
 
     freak = Player("Freak", {'MinDMG': 10, "MaxDMG": 15, "ARMOR": 10, "HEALTH": 25})
     chocky = Player("Chocky", {'MinDMG': 10, "MaxDMG": 15, "ARMOR": 10, "HEALTH": 25})
@@ -124,12 +124,12 @@ if __name__ == '__main__':
     lucian = Player("Lucian", {'MinDMG': 10, "MaxDMG": 15, "ARMOR": 10, "HEALTH": 25})
     
 
-    # List of all usage players add/modify manually
+    # 2 List of all usage players add/modify manually
 
     players = [freak, chocky, garen, jax, ashe, lucian]
 
 
-    # Random player selection
+    # 3 Random player selection
 
     rIndex = np.random.randint(len(players))
     rIndex2 = np.random.randint(len(players))
@@ -137,10 +137,10 @@ if __name__ == '__main__':
     rPlayer2 = players[rIndex2]
 
 
-    # For manual/random player selection quote/unquote the following code:
+    # 4 For manual/random player selection quote/unquote the following code:
 
     rPlayer.fight(rPlayer2)
 
-    # And unquote/quote the following code:
+    # 5 And unquote/quote the following code:
 
     # freak.fight(chocky)
