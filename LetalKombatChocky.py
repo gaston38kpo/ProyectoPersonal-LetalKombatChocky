@@ -74,7 +74,7 @@ class Player:
             # \\\\\\\\\ Checking life P2 \\\\\\\\\
        
             if Player2.health <= 0:
-                print(f"\n\t\t...{Player2.name} ha muerto.\n\t{self.name} es el ganador!\n")
+                print(f"\n\t\t...{Player2.name} ha muerto.\n\t\t{self.name} es el ganador!\n")
                 break
 
 
@@ -107,7 +107,7 @@ class Player:
             # \\\\\\\\\ Checking life P1 \\\\\\\\\
 
             if self.health <= 0:
-                delay_print(f"\n\t\t...{self.name} ha muerto.\n\t{Player2.name} es el ganador!")
+                delay_print(f"\n\t\t...{self.name} ha muerto.\n\t\t{Player2.name} es el ganador!")
                 break
 
             
