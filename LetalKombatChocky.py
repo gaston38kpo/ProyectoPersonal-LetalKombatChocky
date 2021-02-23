@@ -129,7 +129,7 @@ if __name__ == '__main__':
     players = [freak, chocky, garen, jax, ashe, lucian]
 
 
-    # 3 Random player selection
+    # Random player selection
 
     rIndex = np.random.randint(len(players))
     rIndex2 = np.random.randint(len(players))
@@ -137,10 +137,10 @@ if __name__ == '__main__':
     rPlayer2 = players[rIndex2]
 
 
-    # 4 For manual/random player selection quote/unquote the following code:
+    # 3 For manual/random player selection quote/unquote the following code:
 
     rPlayer.fight(rPlayer2)
 
-    # 5 And unquote/quote the following code:
+    # 4 And unquote/quote the following code:
 
     # freak.fight(chocky)
